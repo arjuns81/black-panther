@@ -1,0 +1,22 @@
+body{
+    background-color: yellow;
+}
+h1{
+    background-color:aqua;
+    color: purple;
+}
+canvas{
+    border:5px solid black;
+    animation-name:power ;
+    animation-duration:4s ;
+animation-iteration-count:infinite:
+}
+
+@keyframes power{
+from{
+    box-shadow:2px 2px 20px darkblue;
+}
+to{
+box-shadow:2px 2px 20px red;
+}
+} 
